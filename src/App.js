@@ -1,8 +1,7 @@
 import React from "react";
-import { Header } from "./comps";
+import { Header, Box } from "./comps";
 import { ThemeProvider } from "styled-components";
 import theme from "./theme";
-import Box from "./comps/Box";
 
 function App() {
   return (
