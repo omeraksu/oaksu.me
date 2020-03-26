@@ -1,5 +1,11 @@
 import React from "react";
+import Box from "./Box";
 
-export function Nav(props) {
-  return <div>{props.title}</div>;
+export function Nav() {
+    
+  return (
+    <Box>
+        <a>la?</a>
+    </Box>
+  );
 }

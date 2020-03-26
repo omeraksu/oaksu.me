@@ -1,13 +1,15 @@
 import React from "react";
-import { Header, Nav } from "./comps";
-import {ThemeProvider} from 'styled-components'
-import theme from './theme'
+import { Header } from "./comps";
+import { ThemeProvider } from "styled-components";
+import theme from "./theme";
+import Box from "./comps/Box";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Header title="omeraksu" desc="burası neresi?" />
-      <Nav title="studio" />
+      <Box bg="black" color="white" width="100vw" height="100vh">
+        <Header title="omeraksu" desc="burası neresi?" />
+      </Box>
     </ThemeProvider>
   );
 }
