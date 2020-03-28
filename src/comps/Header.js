@@ -1,21 +1,12 @@
 import React from "react";
-import { Box, Nav } from "./";
-import styled from "styled-components";
+import { Text, Nav } from "./";
 
-export function Header({ title }) {
-  const Navicigim = styled(Box)({
-    borderRadius: "4",
-    border: "1px solid #f6f6f6",
-    boxShadow: "0 2px 4px rgba(0, 0, 0, .125)",
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center"
-  });
+export function Header(props) { 
   return (
-    <Navicigim>
-      <a>{title}</a>
+    <Text fontFamily="Sf Pro Rounded" fontSize={18} textAlign="left">
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+      <a>{props.title}</a>
       <Nav />
-    </Navicigim>
+    </Text>
   );
 }
