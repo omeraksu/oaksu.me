@@ -1,17 +1,17 @@
 import React from "react";
-import { Header, Box } from "./comps";
 import { ThemeProvider } from "styled-components";
 import theme from "./theme";
-// import { About } from "./pages";
+import {Box} from './comps/Boxs'
+import Navigation from "./navigation";
 
-function App() {
+const App = props => {
   return (
     <ThemeProvider theme={theme}>
-      <Box bg="dark" color="book" width="100vw" height="100vh">
-        <Header title="omeraksu" />
+      <Box bg="black" height="100vh">
+        <Navigation />
       </Box>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

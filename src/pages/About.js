@@ -1,12 +1,9 @@
 import React from "react";
-import { Box, TextBox } from "../comps";
+import { Box } from "../comps";
 
 export function About() {
   return (
-    <Box>
-      <TextBox fontSize={49} textAlign="center">
-          la noli
-      </TextBox>
+    <Box display="flex" justifyContent="center" alignItems="center"> 
     </Box>
   );
 }

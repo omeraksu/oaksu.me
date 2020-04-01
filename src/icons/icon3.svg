@@ -1,0 +1,26 @@
+
+<svg viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBE500" offset="0%"></stop>
+            <stop stop-color="#F5C600" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.299432664">
+        <g id="Dribbble-showcase----earnings-report---designed-by-Tran-Mau-Tri-Tam" transform="translate(-268.000000, -719.000000)">
+            <g id="card-2" transform="translate(236.000000, 366.000000)">
+                <g id="Group-13" transform="translate(32.000000, 96.000000)">
+                    <g id="Earning-LI-Copy-2" transform="translate(0.000000, 257.000000)">
+                        <path d="M25.638852,-1.03584031e-15 L38.361148,1.03584031e-15 C47.2763354,-6.01853049e-16 50.5091978,0.928256111 53.768457,2.67132704 C57.0277163,4.41439796 59.585602,6.97228371 61.328673,10.231543 C63.0717439,13.4908022 64,16.7236646 64,25.638852 L64,38.361148 C64,47.2763354 63.0717439,50.5091978 61.328673,53.768457 C59.585602,57.0277163 57.0277163,59.585602 53.768457,61.328673 C50.5091978,63.0717439 47.2763354,64 38.361148,64 L25.638852,64 C16.7236646,64 13.4908022,63.0717439 10.231543,61.328673 C6.97228371,59.585602 4.41439796,57.0277163 2.67132704,53.768457 C0.928256111,50.5091978 4.01235366e-16,47.2763354 -6.90560205e-16,38.361148 L6.90560205e-16,25.638852 C-4.01235366e-16,16.7236646 0.928256111,13.4908022 2.67132704,10.231543 C4.41439796,6.97228371 6.97228371,4.41439796 10.231543,2.67132704 C13.4908022,0.928256111 16.7236646,6.01853049e-16 25.638852,-1.03584031e-15 Z" id="Rectangle" fill="url(#linearGradient-1)" opacity="0.182640439"></path>
+                        <g id="privacy-policy" transform="translate(21.000000, 22.000000)" stroke-width="2">
+                            <circle id="Oval" stroke="#071354" cx="3.5" cy="2.5" r="2.5"></circle>
+                            <circle id="Oval" stroke="#4BA0EA" cx="18.5" cy="2.5" r="2.5"></circle>
+                            <path d="M9,11.838 C6.788,11.088 5.883,8 3,8 L3,8 C1.34314575,8 0,9.34314575 0,11 L0,20 L6,20 L6,14" id="Path" stroke="#071354" stroke-linecap="square"></path>
+                            <path d="M13,11.838 C15.212,11.088 16.117,8 19,8 L19,8 C20.6568542,8 22,9.34314575 22,11 L22,20 L16,20 L16,14" id="Path" stroke="#4BA0EA" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
