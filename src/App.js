@@ -1,17 +1,12 @@
-import React from "react";
-import { ThemeProvider } from "styled-components";
-import theme from "./theme";
-import {Box} from './comps/Boxs'
-import Navigation from "./navigation";
+import React from 'react';
+import './App.css';
 
-const App = props => {
+function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Box bg="black" height="100vh">
-        <Navigation />
-      </Box>
-    </ThemeProvider>
+    <div className="App">
+      <h1>awdawdaw</h1>
+    </div>
   );
-};
+}
 
 export default App;
