@@ -6,7 +6,6 @@
 .pnp.js
 /.storybook
 /.next
-/public
 
 # testing
 /coverage
