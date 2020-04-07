@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import theme from "./theme";
+import { Layout } from "./comps";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <h1>awdawdaw</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Layout />
+    </ThemeProvider>
   );
 }
 

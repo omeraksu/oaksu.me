@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "@styled-system/css": "^5.1.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -20,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "svgr": "svgr ./src/icons -d ./src/comps/icons"
+    "svgr": "svgr ./src/icon -d ./src/comps/icons"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +39,9 @@
     ]
   },
   "devDependencies": {
-    "@svgr/cli": "^5.3.0"
+    "@svgr/cli": "^5.3.0",
+    "postcss-normalize": "^8.0.1",
+    "react-app-rewire-postcss": "^3.0.2",
+    "react-app-rewired": "^2.1.5"
   }
 }
